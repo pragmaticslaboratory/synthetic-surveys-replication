@@ -1,8 +1,8 @@
-# Synthetic Surveys Tool
+# Synthetic Surveys Replication
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A TypeScript command-line tool for generating and auditing synthetic answers to single-choice surveys. It imports a reviewed TXT or DOCX questionnaire, runs mock or API-backed respondent simulations, and evaluates synthetic answers against a separate human reference. The repository contains **software and fictional examples only**.
+A fork of the [Synthetic Surveys Tool](https://github.com/pleger/synthetic-surveys-tool), extended with aggregate results from an exploratory synthetic-survey study. The repository contains the TypeScript CLI, fictional software fixtures, and a small aggregate-results file; it does not contain the manuscript or respondent-level records. See [`research/README.md`](research/README.md) for the aggregate data definitions and limits.
 
 ## Requirements and quick start
 
@@ -16,6 +16,8 @@ npm run pilot
 ```
 
 The pilot makes no network requests and uses fictional profiles with a deterministic mock provider. It writes example inputs, response records, and a technical report to `runs/technical-pilot/`. Its metrics verify the software workflow; they are not evidence that synthetic responses match people.
+
+The study-level summaries are in [`research/aggregate-results.csv`](research/aggregate-results.csv). They contain only published, group-level metrics and no respondent identifiers or row-level responses.
 
 ## Import and run
 

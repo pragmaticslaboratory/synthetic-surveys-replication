@@ -1,0 +1,25 @@
+study,survey,model,prompt,context,n_profiles,n_items,replicates,n_outputs,mean_weighted_tv,mean_weighted_agreement,nonresponse_share
+paired_model_comparison,CEP 91,Luna,base,D,96,4,5,1920,0.9815,0.0072,0.9909
+paired_model_comparison,CEP 91,Luna,base,D+C,96,4,5,1920,0.8367,0.0807,0.8460
+paired_model_comparison,CEP 91,Luna,base,D+C-shuffled,96,4,5,1920,0.8284,0.0859,0.8378
+paired_model_comparison,CEP 91,Luna,base,D+C-group,96,4,5,1920,0.7019,0.2322,0.4383
+paired_model_comparison,CEP 91,Sol,base,D,96,4,5,1920,0.9937,0.0060,1.0000
+paired_model_comparison,CEP 91,Sol,base,D+C,96,4,5,1920,0.9940,0.0060,1.0000
+paired_model_comparison,CEP 91,Sol,base,D+C-shuffled,96,4,5,1920,0.9940,0.0060,1.0000
+paired_model_comparison,CEP 91,Sol,base,D+C-group,96,4,5,1920,0.9940,0.0060,1.0000
+gss_development_extension,GSS 2024,Luna,base,D,24,4,3,288,0.979,0.005,1.000
+gss_development_extension,GSS 2024,Luna,base,D+C,24,4,3,288,0.848,0.098,0.843
+gss_development_extension,GSS 2024,Luna,base,D+C-shuffled,24,4,3,288,0.827,0.056,0.775
+gss_development_extension,GSS 2024,Luna,response-aware,D,24,4,3,288,0.508,0.383,0.000
+gss_development_extension,GSS 2024,Luna,response-aware,D+C,24,4,3,288,0.443,0.342,0.000
+gss_development_extension,GSS 2024,Luna,response-aware,D+C-shuffled,24,4,3,288,0.450,0.304,0.000
+gss_development_extension,GSS 2024,Sol,base,D,24,4,3,288,0.995,0.005,1.000
+gss_development_extension,GSS 2024,Sol,base,D+C,24,4,3,288,0.810,0.113,0.720
+gss_development_extension,GSS 2024,Sol,base,D+C-shuffled,24,4,3,288,0.790,0.082,0.694
+gss_development_extension,GSS 2024,Sol,response-aware,D,24,4,3,288,0.448,0.315,0.000
+gss_development_extension,GSS 2024,Sol,response-aware,D+C,24,4,3,288,0.362,0.424,0.000
+gss_development_extension,GSS 2024,Sol,response-aware,D+C-shuffled,24,4,3,288,0.396,0.295,0.000
+gss_development_extension,GSS 2024,Astra,response-aware,D+C,24,4,3,288,0.346,0.414,0.000
+gss_development_extension,GSS 2024,Astra,response-aware,D+C-shuffled,24,4,3,288,0.391,0.290,0.000
+gss_development_extension,GSS 2024,Supervised multinomial,supervised,D,24,4,NA,96,0.162,,
+gss_development_extension,GSS 2024,Supervised multinomial,supervised,D+C,24,4,NA,96,0.178,,

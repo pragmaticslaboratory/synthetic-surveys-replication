@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: "Synthetic Surveys Tool"
-abstract: "An auditable command-line tool for generating and evaluating synthetic answers to single-choice surveys."
+title: "Synthetic Surveys Replication"
+abstract: "A fork of the auditable Synthetic Surveys command-line tool with aggregate results from an exploratory evaluation on public survey instruments."
 type: software
 authors:
   - family-names: Leger
@@ -9,4 +9,4 @@ authors:
 version: 0.1.0
 date-released: 2026-10-06
 license: MIT
-repository-code: "https://github.com/pleger/synthetic-surveys-tool"
+repository-code: "https://github.com/pragmaticslaboratory/synthetic-surveys-replication"
